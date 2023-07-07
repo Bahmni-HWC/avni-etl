@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - 3.39
-      - GOK-198
-  workflow_dispatch:
 
 jobs:
   build-publish-docker:
