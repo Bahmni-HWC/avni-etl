@@ -33,4 +33,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: bahmnihwc/avni-etl:latest, bahmnihwc/avni-etl:${{ github.sha }}
+          tags: bahmnihwc/avni-etl:latest, bahmnihwc/avni-etl:3.39-${{ github.run_number }}
